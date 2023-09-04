@@ -8,7 +8,21 @@
 </head>
 <body>
     <form>
-        
+        <h1>Entrar</h1>
+        <label for="username">Nome de usuário:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" required>
+
+        <div id="remember-pass">
+            <p>Salvar senha</p>
+            <label class="switch">
+                <input type="checkbox" name="save-password">
+                <span class="slider"></span>
+            </label>
+        </div>
+        <input type="submit" value="Entrar">
     </form>
     
 </body>
